@@ -1,0 +1,35 @@
+include themes/current.conf
+
+set synctex true
+map <C-s> synctex-forward
+
+# 导航
+map j scroll down
+map k scroll up
+map h scroll left
+map l scroll right
+map <C-f> scroll full-down
+map <C-b> scroll full-up
+
+# 缩放
+map + zoom in
+map - zoom out
+map = zoom best-fit
+
+# 页面跳转
+map gg navigate home
+map G navigate end
+map <C-n> navigate next
+map <C-p> navigate previous
+
+# 窗口操作
+map f toggle_fullscreen
+map q quit
+
+# 界面字体
+set font "JetBrainsMono Nerd Font 20"
+
+# 默认缩放模式
+set zoom-page-width
+set default-zoom 1.2
+set zoom-step 15
