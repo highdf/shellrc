@@ -1,0 +1,3 @@
+connections:
+  - driver: mysql
+    dataSourceName: "luky:275365@tcp(127.0.0.1:3306)/test?parseTime=true"
